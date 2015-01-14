@@ -1,0 +1,16 @@
+div.dice{
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    float: left;
+    background: url(../img/faces.jpg) no-repeat;
+}
+div.dicewrap{
+    height:32px;
+}
+div.dice.d1 { background-position: -160px 0px; }
+div.dice.d2 { background-position: -128px 0px; }
+div.dice.d3 { background-position: -96px 0px; }
+div.dice.d4 { background-position: -64px 0px; }
+div.dice.d5 { background-position: -32px 0px; }
+div.dice.d6 { background-position: 0px 0px; }

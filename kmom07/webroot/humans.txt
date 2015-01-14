@@ -1,0 +1,1 @@
+FRD is a PHP-boilerplate/framework for small websites. FRD was built by Kevin Paulsson (kevinpaulsson95@gmail.com) as part of teaching web programming.

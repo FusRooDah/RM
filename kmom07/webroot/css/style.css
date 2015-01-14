@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:700);
+@import url(http://fonts.googleapis.com/css?family=Fontdiner+Swanky);
+
+body, html {
+  font-family: 'Exo', sans-serif;
+  margin: 0px;
+  min-height: 1080px;
+  background: gray;
+}
+
+#wrapper {
+  margin: 7px auto;
+  width: 1050px;
+  padding: 10px;
+  border: 1px solid gray;
+  padding: 7px;
+  background: white;
+}
+
+#header {
+  background: red;
+  position: relative;
+  margin-bottom: 10px;
+  border: 1px solid red;
+  height: 120px;
+  clear:both;
+  padding: 5px;
+}
+
+.sitetitle {
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+/*--------------------------------------------*/
+
+/* Navbar delen */
+.navbar {
+  display: block;
+  background-color:red;
+  padding:0.52em;
+}
+.navbar a {
+  background-color:#999;
+  color:#fff;
+  padding:0.2em;
+  text-decoration:none;
+}
+.navbar a:hover {
+  background-color:#666;
+  padding:0.5em 0.2em 0.5em 0.2em
+}
+
+.navbar a.selected {
+  background-color:gray;
+  padding:0.3em 0.2em 0.5em 0.2em;
+  color:#333;
+}
+/*--------------------------------------------*/
+
+/* Content delen */
+#main {
+    min-height: 500px;
+    border-right: 1px solid #ccc; 
+}
+
+#tablewrapper { 
+    width:974px; 
+    height:300px; 
+    margin: 0 auto; 
+    text-align:center;
+    clear: both;
+} 
+
+.moviewrapper { 
+    width:85px; 
+    text-align:center; 
+    float:left; 
+    position:relative; 
+    top:10px; 
+    left:10px; 
+    border: 1px solid #333; 
+    padding-top:2px; 
+    margin: 5px;
+}
+
+form#right{
+  float:right;
+}
+
+div#info{
+}
+
+div#genre{
+    text-align: center;
+}
+
+div#genre a{
+  text-decoration: none;
+}
+div#genre p a {
+    color: red;
+}
+
+div#genre p a:hover
+{
+    border-bottom: 2px solid #000000;
+}
+
+div#right{
+  float: right;
+  margin-right: 270px;
+}
+
+div#news{
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+/* Footer delen */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+ul{
+  list-style-type: none;
+}
+/*--------------------------------------------*/
+
+/* Film info delen */
+#trailer{
+    width: 1050px;
+    display: inline-block;
+}
+
+/*--------------------------------------------*/
+
+/* Övriga delen */
+.right {
+float: right;
+}
+
+img#pic{
+  width: 75px;
+}
+
+#floatright{
+float: right;
+margin-top: -85px;
+height: 150px;
+width: 150px;
+clear:both;
+ -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+}
+
+fieldset .edit {
+  border: 2px solid black;
+}
+
+fieldset.edit textarea {
+  width: 400px;
+  height: 300px;
+}
+
+#headerFont{
+  font-family: 'Fontdiner Swanky', cursive;
+  -webkit-margin-before: 0.42em;
+  -webkit-margin-after: 0.42em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+/*--------------------------------------------*/
